@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(206, 205, 205);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 5rem auto 0 auto;
+    color: white;
+    background-color: rgb(15,6,23);
+}
+
+h1, p, a{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    line-height: .8;
+    color: white;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-bottom: 1px solid rgba(15, 6, 23, 0.397);
+
+}
+
+a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 5px 5px 10px 0 ;
+}
+
+a:hover{
+    background-color: rgba(0, 0, 255, 0.842);
+    box-shadow: 5px 5px 10px 0 ;
+}
+
+.articulos {
+    display: flex; 
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+article{
+    border: 1 solid black;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 3px 0px rgb(60 , 26, 75);
+    margin: 0.5rem;
+}
+
+.rebajado{
+    background-color: red;
+    color: white;
+    padding: 1rem;
+ 
+}
+
+form{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 1rem;
+    margin: 0 auto;
+}
+.campoform{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem
+}
+
+input{
+    padding: 1rem;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+input[type="submit"]{
+    width: 100%;
+    color: white;
+    margin: 1rem auto;
+    
+}
+table {
+    border: 2px solid white;
+    padding:0.5rem;
+}
+
+table th table tr table td{
+    border: 2px solid white;
+    padding:0.5rem;
+}
